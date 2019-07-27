@@ -1,0 +1,474 @@
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+.header {
+  color: white;
+  text-align: center;
+  background-size: cover;
+  background-image: url(../img/header.png);
+  padding-top: 20px;
+ padding-bottom: 91px;
+}
+
+.header__menu-bar {
+  padding-bottom: 15px;
+  border-bottom: solid 2px #737373;
+}
+
+
+ul,
+li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.logo1 {
+  margin-top: 8px;
+  margin-left: 12px;
+}
+
+.logo {
+  position: absolute;
+}
+
+
+.menu__item {
+  margin-left: 36px;
+}
+
+.menu__item a {
+  color: #fff;
+}
+
+.social {
+  margin-left: 9px;
+}
+
+.about {
+  padding-top: 91px;
+  
+}
+
+.about__title {
+  font-size: 60pt;
+  font-family: 'Segoe UI';
+  text-transform: uppercase;
+  color: #f5f5f5;
+
+}
+
+.about__text {
+  color: #210504;
+  font-size: 15pt;
+  letter-spacing: 9px;
+  margin-top: -34px;
+
+}
+.button__scroll{
+  margin-top: 65px;
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+}
+
+.aboutt{
+  padding-top: 100px;
+  padding-bottom: 125px;
+  color: black;
+  background:#11749e;
+  text-align: center;
+}
+.about_W {
+  font-family: 'Roboto Condensed';
+  font-weight: bold;
+  font-size: 240px;
+  color: #3c8daf;
+}
+.about_large{
+    font-family: 'Roboto Condensed';
+    font-size: 37px;
+    color: #ffffff;
+    position: relative;
+    top:-225px;
+}
+.circle{
+    margin: 0 auto;
+    width: 133px;
+    height: 133px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #2e85aa;
+}
+.about_h4{
+  margin-top: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.aboout_text{
+  margin-top: 37px;
+  font-size: 15px;
+  color: #fff;
+  font-weight: lighter;
+}
+.services {
+  background-color: #222222;
+}
+.news {
+  text-align: left;
+}
+.news-item {
+
+  width: 48%;
+}
+.left>div:first-child {
+  order: 1;
+}
+
+.left>div:last-child {
+  order: 2;
+}
+.right>div:first-child {
+  order: 2;
+}
+
+.right>div:last-child {
+  order: 1;
+}
+.news-item .news{
+   padding-top: 80px;
+    background-color: #222222;
+    padding: 15px
+}
+
+.news span {
+  font-size: 13px;
+  color: #fff;
+}
+
+.news a {
+  text-decoration: none;
+  color: #fff;
+  margin-top: 19px;
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+.news p {
+  color: #fff;
+  font-size: 15px;
+}
+
+.blog{
+  text-align: center;
+  margin-bottom: 105px;
+}
+
+.blog .about_W{
+  color: #d7d7d7
+}
+
+.blog .about_large {
+  color: #000;
+}
+
+.blog_text{
+  font-size: 23pt;
+  color: #000;
+      margin-top: -129px;
+      font-weight: lighter;
+}
+
+.blog .about_h4{
+color:#11749e;
+padding-top: 10px;
+}
+
+.blog .aboout_text {
+  color: #000;
+}
+
+.blog img{
+  padding-top: 80px;
+}
+
+.mobile {
+    color: white;
+    background-size: cover;
+    background-image: url(../img/mobile_bg.png);
+    padding-top: 75px;
+    padding-bottom: 91px;
+
+}
+
+.mobile a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.mobile_text{
+   margin-top: 125px;
+}
+.mobile .aboout_text {
+  margin-bottom: 65px;
+}
+
+.mobile .about_h4{
+  font-size: 15pt;
+  background-color:#2e85aa;
+  line-height: 1.4em;
+}
+
+.team {
+
+    text-align: center;
+    color: #000
+  
+}
+
+.team .about_W {
+  color: #d7d7d7
+}
+
+.team .about_large {
+  color: #000;
+}
+
+.team__card{
+  padding-top: 60px;
+}
+
+.whiteborder h4 {
+   color: #3c8daf;
+   font-size: 17pt;
+  
+}
+
+.whiteborder {
+  margin: 0 40px;
+  padding: 10px 0;
+      background-color: white;
+      position: relative;
+      top: -51px;
+}
+
+
+.footer {
+
+  text-align: center;
+  color: #000;
+  background-size: cover;
+  background-image: url(../img/footer.png);
+ 
+}
+.footer .about_W{
+  color: #4a494d94;
+}
+
+.footer input {
+  background:transparent;
+  padding: 20px;
+}
+
+.texta{
+   background:transparent;
+   margin-top: 25px;
+   overflow: inherit;
+}
+
+button{
+  background: transparent;
+  border: 1px solid #fff;
+  padding: 20px 80px;
+  transition: 0.3s;
+  color: white;
+  margin-top: 15px;
+}
+
+ .map {
+ 
+float: right;
+}
+
+.form{
+  margin-top: -70px;
+  padding-bottom: 20px;
+}
+
+.form-control:not(:first-child) {
+  margin-top: 15px;
+}
+
+.all{
+  background-color:#222222;
+  color: white;
+  padding: 20px 0;
+}
+
+.all__text{
+  font-size:8pt;
+}
+
+.bee{
+  float: right;
+}
+.menu-icon {
+  display: none;
+}
+
+
+
+@media screen and (min-width: 1200px) {
+
+.map {
+
+   float: none;
+   padding-top: 20pt;
+}
+
+
+.mob {
+  text-align: center;
+  margin: auto;
+  display: flex;
+  padding: 20pt;
+}
+.mobile_text {
+  margin-top: 0;
+}
+.logo-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+}
+
+
+@media screen and (max-width: 764px) {
+  .form {
+    margin-top: -148px;
+  }
+.menu__links {
+
+  display: none;
+
+}
+
+
+.logo-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+      flex-direction: column;
+          margin-top: 55px;
+}
+
+.menu-icon {
+  display: block;
+  background: #3c8daf;
+  border: none;
+  font-size: 25px;
+      width: 80%;
+  height: 70px;
+  cursor: pointer;
+}
+
+ul.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-top: 25px;
+}
+
+.whiteborder {
+  margin: 0px 40px;
+}
+.team__card {
+  padding-top: 0;
+}
+.mobile_text, .aboout_text {
+  margin-top: 0;
+}
+.news-item{
+  margin: auto;
+}
+.img-fluid{
+  padding-top: 25px;
+  width: 100%;
+}
+.aboutt{
+  padding-top: 0;
+  padding-bottom: 25px;
+}
+.cir {
+  margin-top: -160px;
+}
+}
+
+@media screen and (max-width: 600px) {
+
+.about__title{
+  font-size: 40px;
+}
+
+   .map {
+
+        height: 270px;
+        margin-top: 25px;
+        float: none;
+            width: 95%;
+
+   }
+
+   .mob {
+     width: 55%;
+   }
+   .blog .aboout_text {
+     color: #000;
+     font-size: 26px;
+   }
+    .left,
+    .right {
+      flex-direction: column;
+    }
+   .news-item,
+   .news {
+     width: 100%;
+   }
+   .blog__card {
+     width: 100%;
+   }
+       .right>div:first-child {
+         order: 1;
+       }
+
+       .right>div:last-child {
+         order: 2;
+       }
+}
+@media screen and (max-width: 376px) {
+
+  
+
+  .map {
+
+    height: 270px;
+    margin-top: 25px;
+    float: none;
+        width: 95%;
+
+  }
+  .bee{
+    float: none;
+  }
+
+}
