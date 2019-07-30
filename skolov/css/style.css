@@ -1,7 +1,10 @@
 body {
-  padding: 0;
-  margin: 0;
-   font-family: Verdana;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
 }
 
 header {
@@ -399,10 +402,50 @@ display: flex;
       display:none;
     }
 
+    .menu-bar{
+      padding: 10px 0;
+     justify-content: center;
+    }
+.header__style {
+padding: 0;
+margin: auto;
+text-align: center;
+  
+}
 
+.our-clients {
+display: block;
+text-align: center;
+}
+ .header { 
+   margin: 0;
+ }
+ .button {
+   margin: 0;
+   margin-bottom: 15px;
+ }
+
+ header {
+
+   background:  url(../img/header_bg.png);
+   background-color: #4c4c4c;
+   background-repeat: no-repeat;
+   background-position: bottom;
+   background-blend-mode:  multiply;
+   background-size: cover;
+   padding: 0;
+ }
+
+.header, .contact {
+  padding: 0;
+}
 .header__title, .contact__text {
-  font-size: 25px;
+  font-size: 20px;
 
+}
+.wrap-what-do {
+
+  text-align: center;
 }
 .news{
   padding: 0;
@@ -456,7 +499,7 @@ display: flex;
   align-self: flex-start;
 }
 .wrap-what-do {
-  padding-left: 15px;
+  width: 100%;
 }
 .wrap-img {
   justify-content: space-between;
