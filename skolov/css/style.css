@@ -342,6 +342,8 @@ section {
   padding-left: 15%;
   padding-right: 15%;
   color: #adadad;
+      background-size: cover;
+      background-repeat: no-repeat;
 }
 
 .about__do .button {
@@ -428,11 +430,15 @@ IMG {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 15px;
   }
+   .menu__item {
+    
+     margin-left: 15px;
+   }
 
 
-
-
+ 
   .menu__links {
 
     display: none;
@@ -529,7 +535,9 @@ header {
   flex-direction: column;
 
 }
-
+.container {
+  flex-direction: column;
+}
 .left,
 .right {
 
