@@ -1,7 +1,6 @@
 $(document).ready(function () {
 
-
-  /* Меню 
+ 
   $('ul.menu a[href^="#"').click(function () {
     var target = $(this).attr('href');
     $('html, body').animate({
@@ -11,10 +10,10 @@ $(document).ready(function () {
       'color': '#fff'
     });
     $(this).css({
-      'color': '#3c8daf'
+      'color': '#fe504f'
     });
     return false;
-  });*/
+  });
   /* Выпадающее меню */
   $('.menu-icon').click(function () {
     $('.menu__links').slideToggle(500, function () {
