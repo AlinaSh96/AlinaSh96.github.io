@@ -17,7 +17,7 @@ header {
     background-color: #4c4c4c;
     background-repeat: no-repeat;
     background-blend-mode: normal,
-    multiply;/
+    multiply;
   
 }
 
@@ -661,7 +661,7 @@ p {
 
  .menu-icon {
    display: block;
-   background:color: #fe504f;
+   background-color: #fe504f;
 
    border: none;
    font-size: 25px;
@@ -701,8 +701,9 @@ h4.all__text {
   height: 200px;
 
 }
-
 }
+
+
 
 @media screen and (min-width: 1265px), screen and (max-width:  1516px) {
   .img__team {
