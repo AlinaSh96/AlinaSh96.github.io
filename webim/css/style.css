@@ -1,0 +1,444 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+   color: #393e6b;
+   word-spacing: -1px;
+
+}
+
+
+
+ nav ul,
+nav li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+ul,li {
+  margin: 0;
+  padding: 0;
+ list-style-position: inside;
+}
+
+.text_title {
+  color: #2aac96;
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/*меню*/
+
+header {
+  background: white;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  box-shadow: -2px 2px 5px 1px rgba(0, 0, 0, 0.27);
+  position: relative;
+
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 33%;
+  height: 100%;
+  position: absolute;
+  background-image: linear-gradient(to right, #4c9fb3, #3fb0bf, #32c0c8, #2ad1cd, #31e1ce);
+  box-shadow: 0px -2px 7px 4px rgba(0, 0, 0, 0.35);
+  top: 0;
+  left: 0px;
+  transform: matrix(1, 0, -2, 1, -100, 0);
+}
+a {
+  color: #393e6b;
+}
+.menu__item,
+.auth__item {
+  margin-left: 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.img-logo {
+  max-width: 100%;
+  height: auto;
+   transform: translate(-13px, -11px);
+}
+/*install*/
+.install, .install-html, .your-wait {
+  background-color:#eff4f4;
+  padding: 70px 0px;
+}
+.intall__title{
+font-size: 36px;
+ text-transform: uppercase;
+ font-weight: bold;
+}
+
+.install__text{
+  padding-top: 40px;
+  font-size: 16px;
+  color:#74757b;
+}
+
+.btn{
+  margin-top: 39px;
+  border:1px solid #393e6b;
+  border-radius: 50px;
+  background-color: transparent;
+  width: 255px;
+  height: 45px;
+  margin-right: 20px;
+  color: #393e6b;
+  font-size: 15px;
+   text-transform: uppercase;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.btn:hover{
+  color: white;
+  background-color:#2cd3b8;
+  border: none;
+}
+/*install-simple*/
+.install-simple,
+.about-webim {
+    background-color:white;
+    padding: 70px 0px;
+}
+.install-simple__title{
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.install__text-simple {
+ 
+  color:#74757b;
+      margin-top: 25px;
+      margin-bottom: 52px;
+}
+
+.number {
+  display: flex;
+}
+
+.two {
+  margin-left: 200px;
+}
+
+
+
+.one, .two {
+  position: relative;
+}
+.one__icon {
+  position: absolute;
+     bottom: -58px;
+     right: -96px;
+}
+.two__icon {
+  position: absolute;
+  bottom: -58px;
+  right: -154px;
+}
+.icon {
+    fill: #363B66;
+    height: 48px;
+    width: 44px;
+        margin-bottom: 20px;
+    
+  }
+
+  /*install html*/
+
+  .install-html .text_title,.install-app .text_title {
+    font-size: 22px;
+    
+  }
+  .install-html .install__text {
+    padding: 0;
+  }
+
+  .install-simple__tiitle {
+    margin-bottom: 50px;
+      font-size: 30px;
+      text-transform: uppercase;
+      font-weight: bold;
+
+  }
+
+  /* install-app*/ 
+
+ .install-app{
+     background-color:white;
+     padding: 70px 0px;
+ }
+
+ .install-app p{
+   padding: 0;
+ }
+
+ .install-app .install-simple__tiitle {
+   margin: 0;
+ }
+
+/*steps*/
+
+ .svg-wrap{
+   display: flex;
+   flex-direction: column;
+ }
+
+ .wrap__item {
+   display: flex;
+   align-items: flex-end;
+       margin-bottom: 20px;
+ }
+
+ .step {
+   height: 70px;
+   width: 70px;
+ }
+
+ .svg-wrap b {
+   font-size: 24px;
+ }
+
+  .svg-wrap p {
+    font-size: 19px;
+    margin-left: 30px;
+  }
+
+  .your-wait .btn {
+    background-color: #393e6b;
+    color: white;
+  }
+
+    .your-wait .btn:hover {
+      transition: 0.3s;
+    color: white;
+    background-color:#2cd3b8;
+    }
+
+    /*about*/
+
+   .about-webim p{
+     font-size: 18px;
+     padding: 0;
+     margin: 0;
+   }
+
+    
+         .wrap {
+           display: flex;
+           align-items: center;
+         }
+
+         .ab{
+           height: 100px;
+           width: 80px;
+
+         }
+
+
+         .wrap p{
+          
+             color: #2aac96;
+             text-decoration: underline;
+             font-weight: 500;
+             font-size: 15px;
+             margin-bottom: auto;
+                 padding-top: 15%;
+           }
+
+           /*footer*/
+footer {
+  background-color:#393e6b;
+  color:white;
+   padding: 50px 0;
+}
+.d-flex {
+     justify-content: space-between;
+}
+footer p {
+   font-size: 14px;
+  color:#b8c2d5;
+}
+
+footer h3 {
+  font-size: 21px;
+}
+
+
+.big {
+  font-size: 24px;
+      margin-left: 10px;
+     
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+
+}
+
+.phone_img{
+  width: 30px;
+}
+
+.right p{
+
+  margin: 5px 0;
+}
+span {
+    color:#b8c2d5;
+} 
+
+span i {
+  margin: 7px
+}
+
+i:hover {
+  color: #2aac96;
+  cursor: pointer;
+}
+ footer a{
+  color:white;
+}
+
+a:hover {
+  color: #21233f;
+  text-decoration: none;
+}
+
+       .fadeInLeftBig {
+         -webkit-animation-name: fadeInLeftBig;
+         animation-name: fadeInLeftBig;
+         -webkit-animation-duration: 0.3s;
+         animation-duration: 1.8s;
+         -webkit-animation-fill-mode: both;
+         animation-fill-mode: both;
+       }
+
+       @-webkit-keyframes fadeInLeftBig {
+         0% {
+           opacity: 0;
+           -webkit-transform: translate3d(-2000px, 0, 0);
+           transform: translate3d(-2000px, 0, 0);
+         }
+
+         100% {
+           opacity: 1;
+           -webkit-transform: none;
+           transform: none;
+         }
+       }
+
+       @keyframes fadeInLeftBig {
+         0% {
+           opacity: 0;
+           -webkit-transform: translate3d(-2000px, 0, 0);
+           transform: translate3d(-2000px, 0, 0);
+         }
+
+         100% {
+           opacity: 1;
+           -webkit-transform: none;
+           transform: none;
+         }
+       }
+       .hiden, .menu-icon{
+         display: none;
+       }
+
+       @media screen and (max-width: 376px) {
+         .menu__item, .auth, .left, .right {
+           display: none;
+         }
+
+         header::before {
+           display: none;
+         }
+
+         header{
+           text-align: center;
+         }
+      .intall__title {
+        font-size: 27px;
+      }
+      .text_title{
+            width: 97px;
+      }
+
+      .btn {
+        margin-top: 24px;
+      }
+      .two {
+        margin-left: 100px;
+      }
+      .two__icon {
+        
+        bottom: -81px;
+        right: -79px;
+      }
+      .install-html{
+        margin-top: 55px;
+      }
+.step {
+  height: 53px;
+  width: 55px;
+}
+.wrap__item {
+  align-items: center;
+}
+.ctr {
+  text-align: center
+}
+
+.wrap p {
+  padding: 0;
+  margin: 0;
+      font-size: 22px;
+}
+.hiden{
+  display: block;
+  font-size: 20px;
+}
+
+.hiden p {
+  
+  font-size: 25px;
+}
+
+   .menu-icon {
+     display: block;
+     background: white;
+     color:#2cd3b8;
+     border: none;
+     font-size: 25px;
+     width: 50px;
+     height: 50px;
+     cursor: pointer;
+     margin-right: 15px;
+   }
+.logo{
+  display: flex;
+}
+.img-logo {
+  transform: none;
+  
+}
+
+ ul.menu {
+   display: flex;
+   flex-direction: column;
+   align-items: end;
+   margin-top: 25px;
+ }
+
+       }
+
+  
