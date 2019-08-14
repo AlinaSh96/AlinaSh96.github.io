@@ -228,7 +228,9 @@ font-size: 36px;
     color: white;
     background-color:#2cd3b8;
     }
-
+.ctr span {
+  color: white;
+}
     /*about*/
 
    .about-webim p{
@@ -407,6 +409,7 @@ i:hover {
 
       .btn {
         margin-top: 24px;
+            width: 230px;
       }
       .two {
         margin-left: 100px;
@@ -414,7 +417,17 @@ i:hover {
       .two__icon {
         
         bottom: -81px;
-        right: -79px;
+        right: -69px;
+      }
+
+      .img-wr {
+            height: 66px;
+
+      }
+
+      .text_title {
+
+        font-size: 15px;
       }
       .install-html{
         margin-top: 55px;
@@ -422,6 +435,10 @@ i:hover {
 .step {
   height: 53px;
   width: 55px;
+}
+
+.ctr span {
+ font-size: 12px;
 }
 .wrap__item {
   align-items: center;
