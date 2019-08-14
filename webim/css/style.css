@@ -28,6 +28,7 @@ ul,li {
   font-size: 18px;
 }
 
+
 /*меню*/
 
 header {
@@ -62,13 +63,17 @@ a {
   font-size: 16px;
   text-transform: uppercase;
 }
+
+ul.menu {
+  display: flex;
+}
 .img-logo {
   max-width: 100%;
   height: auto;
    transform: translate(-13px, -11px);
 }
 /*install*/
-.install, .install-html, .your-wait {
+.install, .install-html, .your-wait  {
   background-color:#eff4f4;
   padding: 70px 0px;
 }
@@ -76,6 +81,7 @@ a {
 font-size: 36px;
  text-transform: uppercase;
  font-weight: bold;
+ 
 }
 
 .install__text{
@@ -309,16 +315,19 @@ i:hover {
   color:white;
 }
 
-a:hover {
+ footer a:hover {
   color: #21233f;
   text-decoration: none;
+
+
+
 }
 
        .fadeInLeftBig {
          -webkit-animation-name: fadeInLeftBig;
          animation-name: fadeInLeftBig;
-         -webkit-animation-duration: 0.3s;
-         animation-duration: 1.8s;
+         -webkit-animation-duration: 1.3s;
+         animation-duration: 1.3s;
          -webkit-animation-fill-mode: both;
          animation-fill-mode: both;
        }
@@ -354,8 +363,27 @@ a:hover {
          display: none;
        }
 
-       @media screen and (max-width: 376px) {
-         .menu__item, .auth, .left, .right {
+       /*Кнопка наверх*/
+       #toTop {
+         z-index: 999;
+         width: 40px;
+         height: 40px;
+         border: none;
+         font-size: 20px;
+         border-radius: 3px;
+         background: #00897b;
+         text-align: center;
+         padding: 5px;
+         position: fixed;
+         bottom: 10px;
+         right: 10px;
+         cursor: pointer;
+         display: none;
+         color: #000000;
+       }
+
+       @media screen and (max-width: 578px) {
+        .auth, .left, .right {
            display: none;
          }
 
@@ -365,6 +393,10 @@ a:hover {
 
          header{
            text-align: center;
+          flex: none;
+          display:block;
+              padding: 20px 0;
+              height: auto;
          }
       .intall__title {
         font-size: 27px;
@@ -424,21 +456,40 @@ a:hover {
      cursor: pointer;
      margin-right: 15px;
    }
-.logo{
-  display: flex;
-}
+
 .img-logo {
   transform: none;
   
 }
 
- ul.menu {
-   display: flex;
-   flex-direction: column;
-   align-items: end;
-   margin-top: 25px;
- }
+nav.menu-bar {
+  text-align: center;
+}
+    ul.menu {
+           display: none;
+           
+           background: white;
+           width: 100%;
+           margin-left: -10px;
+           padding-left: 10px;
+           
+  
+    }
+.logo {
+  position: absolute;
+left: 10%;
+ 
+}
 
+.menu__item
+{
+ 
+  font-size: 19px;
+  padding: 7px 0;
+}
        }
+
+
+       
 
   
