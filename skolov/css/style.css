@@ -164,6 +164,7 @@ section {
 .cart__title {
   font-size: 13px;
   color: black;
+      height: 40px;
 }
 
 .cart__text {
